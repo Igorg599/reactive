@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+  width: 1120px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  background: #3684E2;
+  height: 88px;
+  &__content {
+    height: 100%;
+    width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__service {
+    width: 364px;
+    margin-left: 21px;
+    font-style: normal;
+    font-family: GOST UI 2;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  &__user {
+    margin-left: 370px;
+  }
+  h3 {
+    margin-left: 15px;
+    font-family: GOST UI 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  p {
+    margin-left: 28px;
+    font-family: GOST UI 2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+}

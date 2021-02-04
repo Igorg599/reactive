@@ -138,7 +138,7 @@ function From() {
                         </div> : <div/>}
                     {visibleData ?
                     <form onSubmit={onStepThree} className='data'>
-                        <div className="ellipse"><p>2</p></div>
+                        <div className="data__ellipse"><p>2</p></div>
                         <h3>Данные заявителя</h3>
                         <h5>Фамилия</h5>
                         <input onChange={onValueSurnameChange} value={valueSurname} type='text' className="input" required/>

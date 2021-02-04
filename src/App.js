@@ -1,6 +1,5 @@
 import React from 'react';
-import Header from './components/Header';
-import SubHeader from './components/SubHeader';
+import {Header, SubHeader, Form} from './components';
 
 function App() {
   return (
@@ -8,6 +7,7 @@ function App() {
       <Header/>
       <div className="wrapper">
         <SubHeader/>
+        <Form/>
       </div>
     </>
   );

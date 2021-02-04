@@ -95,6 +95,14 @@ function From() {
                 <button className="button" type="submit">Отправить</button>
                 <div className='consent__bottom'>Нажимая кнопку «Отправить», вы соглашаетесь с <span>правилами хранения и обработки персональных данных</span></div>
             </form>
+            <div className='finish'>
+                <h3>Заявление принято</h3>
+                <p>Номер заявления <strong>RU-1234567</strong>. Максимальный срок предоставления услуги — 20 рабочих дней. Следите за статусом заявления в <span>Личном кабинете</span>. <br/><br/> Если у вас остались вопросы по оказанию услуги, пожалуйста, обращайтесь по телефону +7 (342) 123-45-67.</p>
+                <div className='finish__button'>
+                    <button className="button continue" type="button">Вернуться в каталог</button>
+                    <button className="button transition" type="button">Перейти в личный кабинет</button>
+                </div>
+            </div>
         </form>
     );
 }

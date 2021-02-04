@@ -34,7 +34,7 @@
         color: #FFFFFF;
     }
     &__user {
-        margin-left: 370px;
+        margin-left: 350px;
     }
     h3 {
         margin-left: 15px;
@@ -135,7 +135,7 @@
         background: #F5F5F7;
         border-radius: 4px;
         display: flex;
-        justify-content: start;
+        justify-content: flex-start;
         cursor: pointer;
         &.active {
             background: #FFFFFF;
@@ -457,5 +457,72 @@ button {
     &__button {
         display: flex;
         justify-content: flex-start;
+    }
+}
+
+.done {
+    width: 736px;
+    height: 80px;
+    margin-top: 40px;
+    background: #FFFFFF;
+    border-radius: 4px; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    &__ellipse {
+        width: 48px;
+        height: 48px;
+        background: #1BC400;
+        border-radius: 48px;
+        margin-left: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p {
+        font-family: SF Pro Display;
+        font-size: 21px;
+        line-height: 32px;
+        color: #3B4256;
+        margin-left: 32px;
+    }
+    &.two {
+        margin-top: 24px;
+    }
+}
+
+.disabled {
+    width: 736px;
+    height: 80px;
+    margin-top: 24px;
+    background: #FFFFFF;
+    border-radius: 4px; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &__ellipse {
+        width: 48px;
+        height: 48px;
+        background: #BCC3CA;
+        border-radius: 48px;
+        margin-left: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: SF Pro Display;
+        font-size: 22px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    p {
+        font-family: SF Pro Display;
+        font-size: 21px;
+        line-height: 32px;
+        color: #BCC3CA;
+        margin-left: 32px;
     }
 }
